@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #error-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+#error-home h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+
+#error-home h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+  
+.error-statement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    height: 60px;
+    margin: 0 1rem;
+    padding-bottom: 20px;
+}
+  
+footer p {
+    text-align: center;
+    font-size: small;
+}
